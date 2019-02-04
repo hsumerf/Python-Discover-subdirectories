@@ -25,7 +25,7 @@ with open("dirs.txt","r") as wordlist_file:
         # print(response.url + " --> "+ str(response.status_code))
         if response:
             subdirectories_count = subdirectories_count + 1
-            print("\r[+] URL No. "+str(subdirectories_count),end="")
+            print("\r[+] URL No. "+str(subdirectories_count))
             print("[+] Discoverd URL --> " + response.url)
             subdirectries.append(response.url)
             # \r means always start from the start of the line
