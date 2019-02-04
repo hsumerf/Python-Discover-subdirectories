@@ -15,6 +15,7 @@ def request(url):
 # target_url = "192.168.0.105/mutillidae"
 target_url = "http://ajwapaste.com.pk"
 # response = request(target_url)
+
 # print(response)
 with open("dirs.txt","r") as wordlist_file:
     subdirectories_count = 0
